@@ -113,7 +113,7 @@ const editUser = async (req, res) => {
   }
 };
 
-// Userin poisto id:n perusteella (TODO: käytä DB)
+// Userin poisto id:n perusteella
 const deleteUser = async (req, res) => {
   console.log('deleteUser', req.params.id);
   const users = await selectAllUsers();

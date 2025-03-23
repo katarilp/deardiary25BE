@@ -30,7 +30,7 @@ INSERT INTO Users (username, password, email, user_level) VALUES
   ('mike_smith', 'temp-pw-3', 'mike@example.com', 'moderator');
 
 INSERT INTO DiaryEntries (user_id, entry_date, anxiety_level, notes, created_at) VALUES
-  (3, '2024-01-10', 1, 'Had a great day', '2024-01-10 20:00:00'),
-  (1, '2024-01-10', 3, 'Had a great day, felt energetic', '2024-01-10 20:00:00'),
-  (1, '2024-01-11', 6, 'Long day at work, need rest', '2024-01-11 20:00:00'),
-  (2, '2024-01-10', 7, 'Busy day, a bit stressed out', '2024-01-10 21:00:00');
+  (7, '2024-01-10', 1, 'Kiva päivä', '2024-01-10 20:00:00'),
+  (7, '2024-01-08', 3, 'vähän väsytti', '2024-01-10 20:00:00'),
+  (7, '2024-01-11', 6, 'töissä kiireistä', '2024-01-11 20:00:00'),
+  (7, '2024-01-07', 7, 'lapsi sairaana', '2024-01-10 21:00:00');
